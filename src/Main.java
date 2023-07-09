@@ -6,10 +6,10 @@ public class Main {
         // we need to let user type in names to the name list
         Scanner scanner = new Scanner(System.in);
 
-        //all the names would be uniquely stay in the HashSet
+        //all the names would be uniquely stay in the list
         ArrayList<String> nameListOfTheGroup = new ArrayList<>();
 
-        //let user type in name, add the name in the hashset
+        //let user type in name, add the name in the list
         System.out.println("the group is made of how many people? : ");
         int numberOfPplInGroup = scanner.nextInt();
         for (int i = 1; i < numberOfPplInGroup + 1; i++) {
